@@ -19,7 +19,7 @@ const Settings = () => {
     { isLoading: isUpdating, isSuccess: updated }, // This is the destructured mutation result
   ] = useUpdateProfileMutation()
 
-  const base_url = process.env.BASE_URL
+  const base_url = process.env.NEXT_PUBLIC_BASE_URL
 
   const handleSubmit = (values: any) => {
     const formdata = new FormData()

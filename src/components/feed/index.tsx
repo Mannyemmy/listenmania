@@ -40,7 +40,7 @@ function MainPage() {
       })
       formData.append('post_type', fileType)
     }
-    // const res = await axios.post(`${process.env.BASE_URL}posts`, formData)
+    // const res = await axios.post(`${process.env.NEXT_PUBLIC_BASE_URL}posts`, formData)
     // console.log(res);
     createPost(formData)
   }

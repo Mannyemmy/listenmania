@@ -4,7 +4,7 @@ import { io } from 'socket.io-client';
 let socket;
 
 export const initiateSocketConnection = async () => {
-	socket = io(process.env.BASE_URL);
+	socket = io(process.env.NEXT_PUBLIC_BASE_URL);
 }
 
 export const disconnectSocket = () => {

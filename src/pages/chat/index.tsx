@@ -19,7 +19,7 @@ import { io } from 'socket.io-client'
 import { useSession } from 'next-auth/react'
 import { useAppDispatch } from '@/store/hooks'
 
-const baseUrl = process.env.BASE_URL
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL
 
 function Chat() {
   const isAuthenticated = useAuth(true)

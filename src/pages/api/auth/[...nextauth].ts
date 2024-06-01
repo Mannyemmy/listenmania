@@ -9,7 +9,7 @@ async function refreshAccessToken(tokenObject: any) {
   try {
     // Get a new set of tokens with a refreshToken
     const tokenResponse = await axios.post(
-      process.env.BASE_URL + "auth/refresh-tokens",
+      process.env.NEXT_PUBLIC_BASE_URL + "auth/refresh-tokens",
       {
         refreshToken: tokenObject.refreshToken,
       }
@@ -45,7 +45,7 @@ export const authOptions: NextAuthOptions = {
       authorize: async (credentials) => {
         try {
           // Authenticate user with credentials
-          const res = await axios.post(process.env.BASE_URL + "auth/login", {
+          const res = await axios.post(process.env.NEXT_PUBLIC_BASE_URL + "auth/login", {
             password: credentials?.password,
             email: credentials?.email,
           });
@@ -65,7 +65,7 @@ export const authOptions: NextAuthOptions = {
   events: {
     signOut: async ({token, session})=>{
       const tokenResponse = await axios.post(
-        process.env.BASE_URL + "auth/logout",
+        process.env.NEXT_PUBLIC_BASE_URL + "auth/logout",
         {
           refreshToken: token.refreshToken,
         }
