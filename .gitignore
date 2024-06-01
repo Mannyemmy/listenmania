@@ -5,8 +5,9 @@
 /.pnp
 .pnp.js
 /lofi
+/.husky
 
-
+package-lock.json
 
 # testing
 /coverage
@@ -18,7 +19,7 @@ cypress/videos
 # next.js
 /.next
 /out
-
+/.vscode
 # next-sitemap
 public/robots.txt
 public/sitemap.xml
