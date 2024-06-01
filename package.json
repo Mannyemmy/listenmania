@@ -1,6 +1,9 @@
 {
   "name": "ylvonis",
   "version": "3.6.0",
+  "cacheDirectories": [
+    ".next/cache"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,8 +20,8 @@
     "postinstall": "npm run build"
   },
   "engines": {
-    "node": ">=0.10.3 <19",
-    "npm": ">=8.19.3"
+    "node": "22.1.0",
+    "npm": "8.7.0"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^13.1.6",
