@@ -19,10 +19,6 @@
     "commit": "cz",
     "postinstall": "npm run build"
   },
-  "engines": {
-    "node": "22.x",
-    "npm": "8.7.0"
-  },
   "dependencies": {
     "@next/bundle-analyzer": "^13.1.6",
     "@radix-ui/react-progress": "^1.0.1",
