@@ -15,7 +15,7 @@ const Register = () => {
   const [loginError, setLoginError] = useState('') // This will be used to show a message if the submission is successful
   const [loading, setLoading] = useState<boolean>(false)
   const [location, setLocation] = useState('US')
-  const base_url = process.env.NEXT_PUBLIC_BASE_URL
+  const base_url = process.env.BASE_URL
 
   const validationSchema = yup.object({
     username: yup

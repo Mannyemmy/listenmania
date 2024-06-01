@@ -3,7 +3,7 @@ import { getSession } from "next-auth/react";
 
 
 
-const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+const baseUrl = process.env.BASE_URL;
 
 
 async function getToken() {

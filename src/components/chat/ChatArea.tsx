@@ -79,7 +79,7 @@ function ChatArea({
 
       // these are args passed to the queryFn
       await uploadMedia({
-        url: `${process.env.NEXT_PUBLIC_BASE_URL}/chats/upload`,
+        url: `${process.env.BASE_URL}/chats/upload`,
         data: formData,
       })
     }
