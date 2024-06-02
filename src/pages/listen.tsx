@@ -12,7 +12,7 @@ function Listen() {
  
   return (
     <Main
-      meta={<Meta title="Ylvonis" description="Ylvonis Music" />}
+      meta={<Meta title="ListenMania" description="ListenMania Music" />}
       title="Listen"
     >
       <Tabs

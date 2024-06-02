@@ -85,7 +85,7 @@ function DesktopHeader() {
           className=" rounded-full object-cover"
           alt=""
         />
-        <h1 className="gradText font-semibold text-3xl">Ylvonis</h1>
+        <h1 className="gradText font-semibold text-2xl">ListenMania</h1>
       </Link>
 
       <div className="flex justify-between items-center  basis-5/6 px-7">

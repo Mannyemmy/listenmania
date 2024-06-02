@@ -90,7 +90,7 @@ const Index = () => {
   }
 
   return (
-    <Main meta={<Meta title="Ylvonis" description="music app" />} title="Home">
+    <Main meta={<Meta title="ListenMania" description="music app" />} title="Home">
       <div className="w-full grid grid-cols-1 md:grid-cols-5 ">
         <div className="md:col-span-3 mt-2 md:mt-0">
           <div className="w-full flex justify-between items-center">

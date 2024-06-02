@@ -8,8 +8,8 @@ function Feed() {
     <Main
       meta={
         <Meta
-          title="Ylvonis"
-          description="Ylvonis Music"
+          title="ListenMania"
+          description="ListenMania Music"
         />
       }
       title="Feed"

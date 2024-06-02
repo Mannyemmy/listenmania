@@ -19,7 +19,7 @@ function Notifications() {
   )
   return (
     <Main
-      meta={<Meta title="Ylvonis" description="Ylvonis Music" />}
+      meta={<Meta title="ListenMania" description="ListenMania Music" />}
       title="Notifications"
       nested={true}
     >
@@ -63,7 +63,7 @@ function Notifications() {
               <div className="w-full col-container">
                 <MdOutlineNotificationsOff className="w-[200px] h-[200px]" />
                 <p className="text-xl text-brand  text-center  font-semibold">
-                  Notifications will appear here when Ylvonis users follow you
+                  Notifications will appear here when ListenMania users follow you
                   and when they like, subscribe or playlist your music!.
                 </p>
               </div>

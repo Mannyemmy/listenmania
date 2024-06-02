@@ -132,7 +132,7 @@ function Profile() {
   if (status == 'authenticated') {
     return (
       <Main
-        meta={<Meta title="Ylvonis" description="Ylvonis Music" />}
+        meta={<Meta title="ListenMania" description="ListenMania Music" />}
         title="Profile"
         nested={true}
       >

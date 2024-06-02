@@ -149,8 +149,8 @@ const Upload = () => {
     <Main
       meta={
         <Meta
-          title="Ylvonis"
-          description="Ylvonis Music"
+          title="ListenMania"
+          description="ListenMania Music"
         />
       }
       title="upload"
@@ -158,10 +158,10 @@ const Upload = () => {
       <div className="max-w-4xl md:mx-auto pt-6 mx-1 md:pt-3">
         <div className="w-full flex flex-col justify-center items-center">
           <h2 className="text-3xl font-semibold">
-            Upload your music to <span className="gradText">Ylvonis!</span>
+            Upload your music to <span className="gradText">ListenMania!</span>
           </h2>
           <p className="text-utilGray text-sm">
-            Ylvonis lets you upload for free.
+            ListenMania lets you upload for free.
           </p>
           <div className="my-5 w-full">
             <FileUploader
@@ -189,10 +189,10 @@ const Upload = () => {
                 <span className="text-xs text-center  font-semibold leading-5 text-gray-400">
                   Uploading constitutes your acceptance of our Terms of Service
                   and Privacy Policy. Uploading music is reserved for Artists,
-                  DJs, and Labels. Ylvonis is not for storing or sharing your
+                  DJs, and Labels. ListenMania is not for storing or sharing your
                   personal music collection or files. DO NOT upload any content
                   which infringes on the rights of 3rd parties. Users who upload
-                  3rd party content will be banned from Ylvonis immediately.
+                  3rd party content will be banned from ListenMania immediately.
                 </span>
               </div>
             </FileUploader>

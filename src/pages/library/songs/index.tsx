@@ -13,8 +13,8 @@ function SongLibrary() {
     <Main
       meta={
         <Meta
-          title="Ylvonis"
-          description="Ylvonis Music"
+          title="ListenMania"
+          description="ListenMania Music"
         />
       }
       title="Song Library"

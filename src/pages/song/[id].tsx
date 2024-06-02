@@ -54,7 +54,7 @@ const Song = () => {
   }, [currentTrack, router.isReady])
 
   return (
-    <Main meta={<Meta title="Ylvonis" description="music app" />} title="Now Playing">
+    <Main meta={<Meta title="ListenMania" description="music app" />} title="Now Playing">
       <div className="w-full min-h-screen">
         <div className="px-2 pt-5 flex items-center justify-between">
           <button onClick={() => router.back()}>

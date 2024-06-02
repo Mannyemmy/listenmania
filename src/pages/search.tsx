@@ -81,7 +81,7 @@ function SearchResults() {
 
   return (
     <Main
-      meta={<Meta title="Ylvonis" description="Ylvonis Music" />}
+      meta={<Meta title="ListenMania" description="ListenMania Music" />}
       title="Search"
     >
       <div className="max-w-5xl mx-auto">

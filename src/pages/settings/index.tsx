@@ -9,7 +9,7 @@ function Settings() {
   const auth = useAuth(true)
   return (
     <Main
-      meta={<Meta title="Ylvonis" description="Ylvonis Music" />}
+      meta={<Meta title="ListenMania" description="ListenMania Music" />}
       title="Settings"
       nested={true}
     >
